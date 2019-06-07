@@ -15,6 +15,7 @@ class BasePage(object):
 
     def find_element(self, selector):
         """元素定位方法"""
+        self.driver.implicitly_wait(4)  # 隐式等待
         by = selector[0]
         value = selector[1]
         element = None
@@ -37,10 +38,10 @@ class BasePage(object):
         """输入值"""
         element = self.find_element(selector=selector)
         try:
-            element.send_key(value)
+            element.send_keys(value)
             print("元素输入内容：%s" % value)
         except Exception:
-            print("error")
+            print("Exception error")
 
     def click(self, selector):
         """点击事件"""
