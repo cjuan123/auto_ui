@@ -4,7 +4,7 @@
 @author: chenj
 @file: test_govern_login.py
 @time: 2019/6/7 16:54
-@desc：政府端--登录
+@desc：政府端--适老化登录
 """
 import unittest
 import time
@@ -20,7 +20,7 @@ class TestGovernLogin(unittest.TestCase):
     govern_host = DEFAULT.government_host
 
     warnings.simplefilter("ignore", ResourceWarning)
-    driver = webdriver.Chrome(DEFAULT.driver_path)
+    driver = webdriver.Chrome()
     govern_login = GovernLogin(driver=driver)
     govern_house = GovernHouse(driver=driver)
 
