@@ -7,6 +7,9 @@
 @desc：默认配置
 """
 
+driver_path = r"F:\auto_ui\chromedriver.exe"
+
+
 government_host = "https://test.chinaylzl.com"
 business_host = "https://test1.chinaylzl.com"
 pinggu_host = "https://test3.chinaylzl.com"

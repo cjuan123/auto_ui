@@ -15,11 +15,11 @@ class BasePage(object):
 
     def find_element(self, selector):
         """元素定位方法"""
-        self.driver.implicitly_wait(4)  # 隐式等待
+        self.driver.implicitly_wait(10)  # 隐式等待
         by = selector[0]
         value = selector[1]
         element = None
-        if by == "id" or by == "name" or by == "link" or by == "xpath":
+        if by == "id" or by == "name" or by == "link" or by == "xpath" or by == "class":
             if by == "id":
                 element = self.driver.find_element_by_id(value)
             elif by == "name":
@@ -28,6 +28,8 @@ class BasePage(object):
                 element = self.driver.find_element_by_link_text(value)
             elif by == "xpath":
                 element = self.driver.find_element_by_xpath(value)
+            elif by == "class":
+                element = self.driver.find_element_by_class_name(value)
             else:
                 print("没有找到元素，请检查！！")
             return element
@@ -45,5 +47,6 @@ class BasePage(object):
 
     def click(self, selector):
         """点击事件"""
+
         element = self.find_element(selector=selector)
         element.click()
