@@ -8,5 +8,5 @@
 """
 from selenium import webdriver
 
-driver = webdriver.Chrome(r"F:\auto_ui\chromedriver.exe")
-driver.find_element_by_class_name()
+driver = webdriver.Chrome()
+driver.get("https://www.baidu.com")

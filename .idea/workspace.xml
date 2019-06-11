@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="cebf42c7-2b73-4f36-bebe-746a4e5a1088" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/DEFAULT.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/DEFAULT.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object/baidu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object/test_govern/govern_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/govern_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object/test_govern/govern_login_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/govern_base_element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_baidu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/DEFAULT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/govern_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/govern_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/govern_base_element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/govern_house/gover_house.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/govern_house/gover_house.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/govern_house/gover_house_element.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/test_govern/test_govern_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_govern/test_govern_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,71 +21,55 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/auto_ui$Unittests_in_test_govern_login_py.coverage" NAME="Unittests in test_govern_login.py Coverage Results" MODIFIED="1560147816782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/test_govern" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-7930624">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="19" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="682" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="682" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test_govern/test_govern_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="315">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
-                <element signature="e#125#140#0" expanded="true" />
-                <marker date="1560158797475" expanded="true" signature="1043:1142" ph="..." />
-                <marker date="1560158797475" expanded="true" signature="1136:1142" ph="..." />
-                <marker date="1560158797475" expanded="true" signature="1161:1170" ph="..." />
+                <element signature="e#128#159#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_object/govern_house/gover_house.py">
+        <entry file="file://$PROJECT_DIR$/page_object/govern_base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="386">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding>
-                <element signature="e#121#158#0" expanded="true" />
-                <marker date="1560147799154" expanded="true" signature="259:432" ph="..." />
+                <element signature="e#117#123#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_object/govern_house/gover_house_element.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/read_yaml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="8" selection-start-line="12" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="494">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/element/govern_base_element.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="6" selection-start-line="9" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yamls/element/govern_house_element.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -99,6 +83,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>shell</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -111,16 +100,23 @@
         <option value="$PROJECT_DIR$/page_object/test_govern/test_govern_login.py" />
         <option value="$PROJECT_DIR$/page_object/test_govern/govern_login_element.py" />
         <option value="$PROJECT_DIR$/page_object/test_govern/govern_login.py" />
-        <option value="$PROJECT_DIR$/common/DEFAULT.py" />
         <option value="$PROJECT_DIR$/page_object/test_govern/govern_base.py" />
-        <option value="$PROJECT_DIR$/Demo.py" />
         <option value="$PROJECT_DIR$/common/base_page.py" />
         <option value="$PROJECT_DIR$/page_object/test_govern/govern_base_element.py" />
         <option value="$PROJECT_DIR$/page_object/test_govern/gover_house.py" />
         <option value="$PROJECT_DIR$/page_object/govern_base_element.py" />
         <option value="$PROJECT_DIR$/page_object/govern_house/gover_house_element.py" />
+        <option value="D:/tools/python364/Lib/subprocess.py" />
+        <option value="$PROJECT_DIR$/Demo.py" />
+        <option value="$PROJECT_DIR$/common/DEFAULT.py" />
+        <option value="$PROJECT_DIR$/yamls/default.yaml" />
+        <option value="$PROJECT_DIR$/yamls/element/govern_house_element" />
+        <option value="$PROJECT_DIR$/yamls/element/govern_base_element" />
+        <option value="$PROJECT_DIR$/common/yaml_tools.py" />
+        <option value="$PROJECT_DIR$/common/read_yaml.py" />
         <option value="$PROJECT_DIR$/page_object/govern_house/gover_house.py" />
         <option value="$PROJECT_DIR$/test_case/test_govern/test_govern_login.py" />
+        <option value="$PROJECT_DIR$/page_object/govern_base.py" />
       </list>
     </option>
   </component>
@@ -130,28 +126,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/auto_ui.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="230" />
-    <option name="y" value="60" />
-    <option name="width" value="929" />
-    <option name="height" value="710" />
+    <option name="x" value="430" />
+    <option name="y" value="160" />
+    <option name="width" value="1050" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,25 +171,38 @@
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
               <item name="test_govern" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="auto_ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_ui" type="462c0819:PsiDirectoryNode" />
+              <item name="yamls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto_ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto_ui" type="462c0819:PsiDirectoryNode" />
+              <item name="yamls" type="462c0819:PsiDirectoryNode" />
+              <item name="element" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/auto_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lemon" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\auto_ui\common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\auto_ui" />
       <recent name="F:\auto_ui\page_object" />
       <recent name="F:\auto_ui\page_object\govern_house" />
-      <recent name="D:\workspace\auto_ui" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\auto_ui\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,6 +218,48 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in test_govern_login.py">
+    <configuration name="Demo" type="PythonConfigurationType" factoryName="Python">
+      <module name="auto_ui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="read_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="auto_ui" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/read_yaml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="auto_ui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in F:/auto_ui/test_case/test_baidu.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in D:/workspace/auto_ui/test_case/test_baidu.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="auto_ui" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -273,14 +313,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Unittests in F:/auto_ui/test_case/test_baidu.py" />
-      <item itemvalue="Python tests.Unittests in test_govern_login.py" />
+      <item itemvalue="Python.Demo" />
       <item itemvalue="Python.test_demo" />
+      <item itemvalue="Python tests.Unittests in D:/workspace/auto_ui/test_case/test_baidu.py" />
+      <item itemvalue="Python tests.Unittests in test_govern_login.py" />
+      <item itemvalue="Python.read_yaml" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in test_govern_login.py" />
-        <item itemvalue="Python tests.Unittests in F:/auto_ui/test_case/test_baidu.py" />
+        <item itemvalue="Python.read_yaml" />
+        <item itemvalue="Python tests.Unittests in D:/workspace/auto_ui/test_case/test_baidu.py" />
         <item itemvalue="Python.test_demo" />
       </list>
     </recent_temporary>
@@ -299,69 +342,66 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 18m 01s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 19m 23s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 20m 37s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 21m 14s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 22m 30s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 23m 11s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 28m 09s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 11h 29m 16s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 14h 20m 35s.xml">
-      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 14h 23m 52s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 22h 33m 34s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 22h 34m 11s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 22h 34m 41s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.10 at 22h 49m 34s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.11 at 22h 57m 13s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.11 at 22h 58m 16s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.11 at 22h 59m 06s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.11 at 23h 00m 38s.xml">
+      <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_govern_login_py - 2019.06.11 at 23h 01m 34s.xml">
       <configuration name="Unittests in test_govern_login.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19220607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35249457" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33002833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20254958" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/tools/python364/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
@@ -372,69 +412,103 @@
     <entry file="file://$PROJECT_DIR$/page_object/baidu.py" />
     <entry file="file://$PROJECT_DIR$/test_case/test_demo.py" />
     <entry file="file://$PROJECT_DIR$/page_object/test_govern/govern_login.py" />
-    <entry file="file://$PROJECT_DIR$/common/DEFAULT.py">
+    <entry file="file://D:/tools/python364/Lib/subprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="173">
+          <caret line="590" column="27" selection-start-line="590" selection-start-column="27" selection-end-line="590" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="297">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/base_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
+        <state relative-caret-position="1323">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_object/govern_base_element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_object/govern_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_object/govern_house/gover_house.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="e#121#158#0" expanded="true" />
-            <marker date="1560147799154" expanded="true" signature="259:432" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_object/govern_house/gover_house_element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="12" column="8" selection-start-line="12" selection-end-line="12" selection-end-column="8" />
+          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/DEFAULT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_object/govern_base_element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_object/govern_house/gover_house.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#121#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/default.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/element/govern_house_element.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="8" selection-start-line="3" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yamls/element/govern_base_element.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="6" selection-start-line="9" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/test_govern/test_govern_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="315">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
-            <element signature="e#125#140#0" expanded="true" />
-            <marker date="1560158797475" expanded="true" signature="1043:1142" ph="..." />
-            <marker date="1560158797475" expanded="true" signature="1136:1142" ph="..." />
-            <marker date="1560158797475" expanded="true" signature="1161:1170" ph="..." />
+            <element signature="e#128#159#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_object/govern_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <element signature="e#117#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/read_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

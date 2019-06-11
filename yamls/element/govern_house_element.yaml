@@ -1,0 +1,4 @@
+# 资源配置
+resource_manage: ["xpath", '//*[@id="app"]/section/section/aside/div/div[1]/div/ul/div[2]/li']
+# 资源配置--评估机构
+agencies: ["xpath", '//*[@id="app"]/section/section/aside/div/div[1]/div/ul/div[2]/li/ul/div[1]/a/li/span']

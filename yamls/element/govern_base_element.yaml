@@ -1,0 +1,10 @@
+#用户名
+user_name: ["id", "mobile"]
+#密码
+pass_word: ["id", "password"]
+#登录按钮
+login_submit: ["id", "login"]
+#切换模块
+switch_groups: ["xpath", "/html/body/div/section/header/div[1]/div[2]/div[3]"]
+#切换模块，确认按钮
+button: ["xpath", '//*[@id="modal-0"]/div[2]/div[2]/div[2]']

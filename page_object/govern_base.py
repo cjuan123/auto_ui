@@ -6,24 +6,23 @@
 @time: 2019/6/7 16:43
 @desc：政府端登陆
 """
-from page_object import govern_base_element as g_login
+import time
 from common.base_page import BasePage
+from common.read_yaml import ReadYaml
 
 
 class GovernLogin(BasePage):
 
-    def user_name_key(self, value):
-        self.send(selector=g_login.user_name, value=value)
+    read_yaml_base = ReadYaml(r'D:\workspace\auto_ui\yamls\element\govern_base_element.yaml')
 
-    def pass_word_key(self, value):
-        self.send(selector=g_login.pass_word, value=value)
-
-    def login_submit(self):
-        self.click(selector=g_login.login_submit)
+    def login_info(self, username, password):
+        self.send(selector=self.read_yaml_base.get_element_value("user_name"), value=username)
+        self.send(selector=self.read_yaml_base.get_element_value("pass_word"), value=password)
+        self.click(selector=self.read_yaml_base.get_element_value("login_submit"))
 
     def switch_groups(self):
-        self.click(selector=g_login.switch_groups)
+        self.click(selector=self.read_yaml_base.get_element_value("switch_groups"))
+        time.sleep(1)
+        self.click(selector=self.read_yaml_base.get_element_value("button"))
 
-    def button_click(self):
-        self.click(selector=g_login.button)
 
