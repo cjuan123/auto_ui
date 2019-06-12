@@ -1,0 +1,5 @@
+# 人员管理
+person: ["xpath", '/html/body/div/aside/nav/ul/li[3]/div/a']
+left: ["xpath", '/html/body/div[1]/section/div']
+queyr: ['class', "filterimg"]
+add_person: ["xpath", '//*[@id="addSurveyUser"]']

@@ -47,6 +47,9 @@ class BasePage(object):
 
     def click(self, selector):
         """点击事件"""
-
         element = self.find_element(selector=selector)
         element.click()
+
+    def script_scroll(self):
+        """#向下滚动到页面底部  """
+        self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight)","")

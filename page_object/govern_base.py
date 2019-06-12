@@ -13,7 +13,7 @@ from common.read_yaml import ReadYaml
 
 class GovernLogin(BasePage):
 
-    read_yaml_base = ReadYaml(r'D:\workspace\auto_ui\yamls\element\govern_base_element.yaml')
+    read_yaml_base = ReadYaml(r'govern_base_element.yaml')
 
     def login_info(self, username, password):
         self.send(selector=self.read_yaml_base.get_element_value("user_name"), value=username)
