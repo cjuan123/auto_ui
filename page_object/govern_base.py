@@ -8,7 +8,7 @@
 """
 import time
 from common.base_page import BasePage
-from common.read_yaml import ReadYaml
+from tools.read_yaml import ReadYaml
 
 
 class GovernLogin(BasePage):

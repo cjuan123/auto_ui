@@ -8,7 +8,7 @@
 """
 import yaml
 import os
-from common.file_path import FilePath
+from tools.file_path import FilePath
 
 
 class ReadYaml:

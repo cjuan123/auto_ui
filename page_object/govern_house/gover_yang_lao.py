@@ -7,7 +7,7 @@
 @desc：政府端--养老
 """
 from common.base_page import BasePage
-from common.read_yaml import ReadYaml
+from tools.read_yaml import ReadYaml
 from time import sleep
 
 
@@ -24,6 +24,6 @@ class GovernYangLao(BasePage):
         sleep(1)
         self.click(selector=self.read_yaml.get_element_value("queyr"))
         sleep(1)
-        # self.click(selector=self.read_yaml.get_element_value("add_person"))
+        self.click(selector=self.read_yaml.get_element_value("add_person"))
 
 
